@@ -2,7 +2,7 @@
 
 Open **index.html** in a modern browser. No build, installation, or server is needed.
 
-The page includes all nine apps in a Clean style: neutral surfaces, consistent cards, generated icons, search, category filters, keyboard navigation, and a responsive mobile layout. Icons and CSS are embedded in the HTML. Google Fonts enhance the typography when online; system fonts work offline.
+The page includes all twelve apps in a Clean style: neutral surfaces, consistent cards, generated icons, search, category filters, keyboard navigation, and a responsive mobile layout. Icons and CSS are embedded in the HTML. Google Fonts enhance the typography when online; system fonts work offline.
 
 ## Add app links
 
@@ -10,15 +10,18 @@ Search `index.html` for `const APP_LINKS` and paste the full URLs between the qu
 
 ```js
 const APP_LINKS = {
-  hrm: '',         // HRM Portal
-  policy: '',      // Policy
-  knowledge: '',   // Knowledge Base
+  hrm: 'https://staff.spacenetwork.in/hrm/web/index.php/auth/login',
+  policy: 'https://sites.google.com/genex.space/genexspacehub/home',
+  knowledge: 'https://kb.gnxs.in/',
   writeassist: '', // WriteAssist App
-  meeting: '',     // Meeting Room
-  tasks: '',       // Task Tracker
-  inventory: '',   // Inventory
+  meeting: '',     // Meeting Room Booking
+  tasks: 'https://track.spacenetwork.in/',
+  inventory: 'https://inventory.spacenetwork.in/rnd/index.php',
   social: '',      // SocialMedia Manager
-  scribe: ''       // Scribe Tool — school program report generator
+  crm: '',
+  scribe: 'https://scribe.spacenetwork.in/user/login',
+  maintenance: '', // Space Lab Maintenance Tracker
+  zoho: 'https://expense.zoho.in'
 };
 ```
 

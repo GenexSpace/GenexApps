@@ -32,3 +32,17 @@ Use case: stylized-concept. Asset type: single app icon for an internal app dire
 ```
 
 Saved as `assets/scribe.png` and embedded in `index.html`.
+
+## CRM, lab maintenance, and reimbursement
+
+Each asset used a separate built-in Image Gen call. Insert the subject from the table into this prompt:
+
+```text
+Use case: stylized-concept. Asset type: a single small icon for a clean app directory. Subject: {subject}. Style: premium soft 3D, matte porcelain, rounded simple sculptural forms, slightly isometric front view, gentle ambient occlusion. Warm ivory #fff9ef, restrained lavender #bcb0ed and peach #EAAE87 accents. Square composition with one centered cohesive icon filling 75 percent and generous clear padding. Genuine transparent alpha background. No words, letters, numbers, logos, border or watermark. Readable at 42 pixels.
+```
+
+| File | Subject |
+| --- | --- |
+| crm.png | three overlapping rounded ivory contact cards with a small lavender person silhouette and a peach connection dot, symbolizing customer relationship management |
+| maintenance.png | an ivory clipboard with a lavender gear and a small peach wrench, symbolizing space lab maintenance tracking |
+| zoho.png | an ivory expense receipt with simple lavender lines and a peach wallet, symbolizing reimbursement |
