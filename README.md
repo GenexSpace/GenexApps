@@ -2,7 +2,7 @@
 
 Open **index.html** in a modern browser. No build, installation, or server is needed.
 
-The page includes all twelve apps in a Clean style: neutral surfaces, consistent cards, generated icons, search, category filters, keyboard navigation, and a responsive mobile layout. Icons and CSS are embedded in the HTML. Google Fonts enhance the typography when online; system fonts work offline.
+The page includes all twelve apps in an Enterprise style: dark surfaces, modular cards, generated icons, search, category filters, keyboard navigation, and a responsive mobile layout. Icons and CSS are embedded in the HTML. Google Fonts enhance the typography when online; system fonts work offline.
 
 ## Add app links
 
@@ -14,7 +14,7 @@ const APP_LINKS = {
   policy: 'https://sites.google.com/genex.space/genexspacehub/home',
   knowledge: 'https://kb.gnxs.in/',
   writeassist: '', // WriteAssist App
-  meeting: '',     // Meeting Room Booking
+  meeting: 'https://meetingroom.spacenetwork.in/', // Meeting Room Booking
   tasks: 'https://track.spacenetwork.in/',
   inventory: 'https://inventory.spacenetwork.in/rnd/index.php',
   social: '',      // SocialMedia Manager
