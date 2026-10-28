@@ -16,7 +16,7 @@ const APP_LINKS = {
   writeassist: '', // WriteAssist App
   meeting: 'https://meetingroom.spacenetwork.in/', // Meeting Room Booking
   tasks: 'https://track.spacenetwork.in/',
-  inventory: 'https://inventory.spacenetwork.in/rnd/index.php',
+  inventory: 'https://inventory.spacenetwork.in/store/material_requests.php',
   social: '',      // SocialMedia Manager
   crm: '',
   scribe: 'https://scribe.spacenetwork.in/user/login',
