@@ -2,7 +2,7 @@
 
 Open **index.html** in a modern browser. No build, installation, or server is needed.
 
-The page includes all twelve apps in an Enterprise style: dark surfaces, modular cards, generated icons, search, category filters, keyboard navigation, and a responsive mobile layout. Icons and CSS are embedded in the HTML. Google Fonts enhance the typography when online; system fonts work offline.
+The page includes all thirteen apps in an Enterprise style: dark surfaces, modular cards, generated icons, search, category filters, keyboard navigation, and a responsive mobile layout. Icons and CSS are embedded in the HTML. Google Fonts enhance the typography when online; system fonts work offline.
 
 ## Add app links
 
@@ -19,6 +19,7 @@ const APP_LINKS = {
   inventory: 'https://inventory.spacenetwork.in/store/material_requests.php',
   social: '',      // SocialMedia Manager
   crm: '',
+  sales: 'https://sales-tracker.gnxs.in/',
   scribe: 'https://scribe.spacenetwork.in/user/login',
   maintenance: '', // Space Lab Maintenance Tracker
   zoho: 'https://expense.zoho.in'
